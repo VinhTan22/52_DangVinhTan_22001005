@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: auto;
+}
+
+body {
+    width: 960px;
+    border: 1px solid black;
+    color: #84610a;
+}
+
+header {
+    height: 150px;
+    background: rgb(172, 75, 22);
+}
+
+.chu-hd {
+    position: absolute;
+    top: 10px;
+    color: rgb(154, 146, 67);
+    text-shadow: 6px -4px 6px white;
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+/* Menu CSS */
+.menu {
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(191, 128, 11);
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.menu {
+    display: flex;
+    justify-content:left 
+     
+}
+
+nav img {
+    width: 958px;
+    height: 200px;
+}
+
+section {
+    float: left;
+    width: 60%;
+    height: 480px;
+    border-right: 1px solid gray;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+section p {
+    color: rgb(116, 107, 11);
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px dotted #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: rgb(126, 128, 0);
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: rgb(100, 100, 0);
+}
+
+aside {
+    width: 28%;
+    float: right;
+    margin: 30px 4%;
+    background-color: #faebd6;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+}
+
+aside h1 {
+    position: relative;
+    bottom: 15px;
+    color: #5f3a10;
+}
+
+aside .links li {
+    line-height: 25px;
+    list-style: square;
+    font-size: 18px;
+    color: rgb(185, 99, 55);
+    padding-left: 20px;
+}
+
+aside .info {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-right: 30px;
+}
+
+aside .info img {
+    width: 80px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+
+aside .info p {
+    text-align: justify;
+    font-size: 14px;
+    color: #887763;
+    line-height: 1.5;
+}
+
+footer {
+    clear: both;
+    padding: 5px;
+    background-image: url(../IMG/Tuan3/Bai3/footer.png);
+    text-align: center;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+    padding-top: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
